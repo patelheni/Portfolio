@@ -1,0 +1,23 @@
+.skills {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #1c1c1c; /* Dark background */
+  color: white; /* White text for contrast */
+}
+
+.skills h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  font-size: 1.2em;
+  color: #dcdcdc;
+  padding: 10px 0;
+}

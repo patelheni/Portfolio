@@ -1,0 +1,17 @@
+.education {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #1c1c1c; /* Dark background */
+  color: white; /* White text for contrast */
+}
+
+.education h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.education p {
+  font-size: 1.2em;
+  color: #dcdcdc;
+}

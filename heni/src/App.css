@@ -1,0 +1,32 @@
+/* LED light animation */
+@keyframes led-lights {
+  0% { background-position: 0 0; }
+  50% { background-position: 100% 100%; }
+  100% { background-position: 0 0; }
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #000; /* Strong black background */
+  background-image: radial-gradient(circle, rgba(108, 99, 255, 1) 20%, transparent 40%),
+                    radial-gradient(circle, rgba(255, 99, 71, 1) 20%, transparent 40%),
+                    radial-gradient(circle, rgba(99, 255, 163, 1) 20%, transparent 40%);
+  background-size: 150% 150%;  /* Bold, dynamic effect */
+  animation: led-lights 5s linear infinite;  /* Faster animation to make it more noticeable */
+  color: #fff;
+}
+
+.App {
+  text-align: center;
+}
+
+h1, p {
+  margin-bottom: 20px;
+}
+
+section {
+  padding: 50px 0;
+  background-color: #1c1c1c; /* Dark background for each section */
+  color: white;
+}
