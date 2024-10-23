@@ -11,16 +11,26 @@
   color: #fff;
 }
 
-.contact p {
-  font-size: 1.2em;
-  color: #dcdcdc;
+.contact-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
 }
 
-.contact a {
-  color: #6c63ff;
-  text-decoration: none;
+.contact-item {
+  text-align: center;
+  margin: 20px;
 }
 
-.contact a:hover {
-  text-decoration: underline;
+.contact-icon {
+  width: 50px; /* Adjust the size of the icons as needed */
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.contact-icon:hover {
+  transform: scale(1.1);
 }

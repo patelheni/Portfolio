@@ -20,6 +20,7 @@
   margin-bottom: 30px;
   font-size: 1.2em;
   color: #dcdcdc;
+  text-align: center;
 }
 
 .projects h3 {
@@ -30,4 +31,27 @@
 
 .projects p {
   color: #dcdcdc;
+}
+
+.project-icon {
+  width: 80px;  /* Adjust the size of the icon */
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.project-icon2 {
+  width: 150px;  /* Adjust the size of the icon */
+  height: auto;
+  margin-bottom: 15px;
+}
+.projects a {
+  color: #6c63ff; /* Link color */
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.projects a:hover {
+  text-decoration: underline;
 }
